@@ -13,6 +13,7 @@
 		C0C1451E29B9F7A3005484A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C1451C29B9F7A3005484A1 /* Main.storyboard */; };
 		C0C1452029B9F7A4005484A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C1451F29B9F7A4005484A1 /* Assets.xcassets */; };
 		C0C1452329B9F7A4005484A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C1452129B9F7A4005484A1 /* LaunchScreen.storyboard */; };
+		C0C1452B29B9F7CF005484A1 /* CustomToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C1452A29B9F7CF005484A1 /* CustomToast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C0C1451F29B9F7A4005484A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0C1452229B9F7A4005484A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0C1452429B9F7A4005484A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0C1452A29B9F7CF005484A1 /* CustomToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C0C1451629B9F7A3005484A1 /* AppDelegate.swift */,
 				C0C1451829B9F7A3005484A1 /* SceneDelegate.swift */,
 				C0C1451A29B9F7A3005484A1 /* ViewController.swift */,
+				C0C1452A29B9F7CF005484A1 /* CustomToast.swift */,
 				C0C1451C29B9F7A3005484A1 /* Main.storyboard */,
 				C0C1451F29B9F7A4005484A1 /* Assets.xcassets */,
 				C0C1452129B9F7A4005484A1 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				C0C1451B29B9F7A3005484A1 /* ViewController.swift in Sources */,
 				C0C1451729B9F7A3005484A1 /* AppDelegate.swift in Sources */,
+				C0C1452B29B9F7CF005484A1 /* CustomToast.swift in Sources */,
 				C0C1451929B9F7A3005484A1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

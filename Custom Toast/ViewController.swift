@@ -13,7 +13,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
 
+    @IBAction func toastPressed(_ sender: Any) {
+       
+        CustomToast.show(message: "Hello, World!",backgroundColor: .blue ,textColor: .white, labelFont: .boldSystemFont(ofSize: 16),  controller: self)
+        self.view.backgroundColor = .cyan
+    }
+    
 
 }
 
